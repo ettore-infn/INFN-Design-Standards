@@ -9,7 +9,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">INFN Design Standards</h3>
+  <h3 align="center">INFN Design Standards</h3>
 
   <p align="center">
     Standard INFN design guidelines for web development.
@@ -43,6 +43,7 @@
         <li><a href="#regular">Regular</a></li>
         <li><a href="#outline">Outline</a></li>
         <li><a href="#no-border">No Border</a></li>
+        <li><a href="#large">Large</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -78,7 +79,10 @@ You can now start building your website using the INFN CSS classes!
 <!-- BUTTONS -->
 ## Buttons
 
-There are several INFN buttons thet you can use in your project. They divides in three main categories: **primary**, **danger** and **warning**. Each of them can be viewed as a **regular button**, an **outline button**, or an **outline button with no borders**. It's a best practice to add an icon to make the purpose of the button clear at a glance.
+There are several INFN buttons thet you can use in your project. They divides in three main categories: **primary**, **danger** and **warning**. Each of them can be viewed as a **regular button**, an **outline button**, or an **outline button with no borders**. Every button can be viewed as **normal** or **large sized**.
+
+It's a best practice to **add an icon** to make the purpose of the button clear at a glance.
+
 
 ### Regular
 
@@ -89,6 +93,7 @@ Regular buttons are the most used, you can add them to perform regular call-to-a
   <div class="infn-btn infn-btn-warning">Warning</div>
 ```
 
+
 ### Outline
 
 You can use outline buttons to perform secondary actions, when the button don't need to be a call-to-action:
@@ -98,6 +103,7 @@ You can use outline buttons to perform secondary actions, when the button don't 
   <div class="infn-btn infn-btn-warning-outline">Warning</div>
 ```
 
+
 ### No Border
 
 The outline buttons with no borders should be used when you don't want the button to stand out:
@@ -105,6 +111,15 @@ The outline buttons with no borders should be used when you don't want the butto
   <div class="infn-btn infn-btn-primary-outline-no-border">Primary</div>
   <div class="infn-btn infn-btn-danger-outline-no-border">Danger</div>
   <div class="infn-btn infn-btn-warning-outline-no-border">Warning</div>
+```
+
+
+### Large
+
+You can increase the size of every button adding the infn-btn-lg class:
+```html
+  <div class="infn-btn infn-btn-primary infn-btn-lg">Primary</div>
+  <div class="infn-btn infn-btn-danger-outline infn-btn-lg">Danger</div>
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
