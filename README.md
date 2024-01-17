@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ettore-infn/INFN-Design-Standards/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="static/images/logo.png" alt="Logo" width="500px">
   </a>
 
   <h3 align="center">INFN Design Standards</h3>
@@ -87,6 +87,9 @@ It's a best practice to **add an icon** to make the purpose of the button clear 
 ### Regular
 
 Regular buttons are the most used, you can add them to perform regular call-to-actions and guide users towards your goal:
+
+<img src="static/images/btn-regular.png" alt="Regular Buttons" height="35px">
+
 ```html
   <div class="infn-btn infn-btn-primary">Primary</div>
   <div class="infn-btn infn-btn-danger">Danger</div>
@@ -97,6 +100,9 @@ Regular buttons are the most used, you can add them to perform regular call-to-a
 ### Outline
 
 You can use outline buttons to perform secondary actions, when the button don't need to be a call-to-action:
+
+<img src="static/images/btn-outline.png" alt="Outline Buttons" height="35px">
+
 ```html
   <div class="infn-btn infn-btn-primary-outline">Primary</div>
   <div class="infn-btn infn-btn-danger-outline">Danger</div>
@@ -107,6 +113,9 @@ You can use outline buttons to perform secondary actions, when the button don't 
 ### No Border
 
 The outline buttons with no borders should be used when you don't want the button to stand out:
+
+<img src="static/images/btn-no-border.png" alt="No Border Buttons" height="35px">
+
 ```html
   <div class="infn-btn infn-btn-primary-outline-no-border">Primary</div>
   <div class="infn-btn infn-btn-danger-outline-no-border">Danger</div>
@@ -117,6 +126,9 @@ The outline buttons with no borders should be used when you don't want the butto
 ### Large
 
 You can increase the size of every button adding the infn-btn-lg class:
+
+<img src="static/images/btn-large.png" alt="Large Buttons" height="40px">
+
 ```html
   <div class="infn-btn infn-btn-primary infn-btn-lg">Primary</div>
   <div class="infn-btn infn-btn-danger-outline infn-btn-lg">Danger</div>
