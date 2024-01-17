@@ -21,6 +21,205 @@
     --infn-box-shadow-light: -3px 3px 8px -3px #00000020;
 }
 
+/* # FONTS */
+
+/* Roboto */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/roboto-black-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto/roboto-black-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/roboto-blackitalic-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto/roboto-blackitalic-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto/roboto-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/roboto-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto/roboto-bolditalic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/roboto-medium-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto/roboto-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/roboto-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto/roboto-mediumitalic-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto/roboto-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/roboto-italic-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto/roboto-italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto/roboto-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/roboto-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto/roboto-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/roboto-thin-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto/roboto-thin-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/roboto-thinitalic-webfont.woff2') format('woff2'),
+         url('../fonts/Roboto/roboto-thinitalic-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+/* Oswald */
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald/oswald-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Oswald/oswald-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald/oswald-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/Oswald/oswald-bolditalic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald/oswald-demibold-webfont.woff2') format('woff2'),
+         url('../fonts/Oswald/oswald-demibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald/oswald-demi-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/Oswald/oswald-demi-bolditalic-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald/oswald-medium-webfont.woff2') format('woff2'),
+         url('../fonts/Oswald/oswald-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald/oswald-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/Oswald/oswald-mediumitalic-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald/oswald-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Oswald/oswald-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald/oswald-regularitalic-webfont.woff2') format('woff2'),
+         url('../fonts/Oswald/oswald-regularitalic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald/oswald-light-webfont.woff2') format('woff2'),
+         url('../fonts/Oswald/oswald-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald/oswald-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/Oswald/oswald-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald/oswald-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/Oswald/oswald-extralight-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald/oswald-extra-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/Oswald/oswald-extra-lightitalic-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+
 /* # BODY */
 
 body {
