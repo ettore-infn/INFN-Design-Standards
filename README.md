@@ -65,7 +65,7 @@ INFN Design standard classes repository. Use this stylesheet when creating a INF
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Include the **INFN Design Standards Stylesheet** the \<head\> of your HTML file:
+Include the **INFN Design Standards Stylesheet** the <code>\<head\></code> of your HTML file:
 ```html
   <!-- INFN Design Standards Stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ettore-infn/INFN-Design-Standards@main/static/style/infn-style.css">
@@ -79,7 +79,8 @@ You can now start building your website using the INFN CSS classes!
 <!-- BUTTONS -->
 ## Buttons
 
-There are several INFN buttons thet you can use in your project. They divides in three main categories: **primary**, **danger** and **warning**. Each of them can be viewed as a **regular button**, an **outline button**, or an **outline button with no borders**. Every button can be viewed as **normal** or **large sized**.
+There are several INFN buttons thet you can use in your project. They divides in three main categories: **primary**, **danger** and **warning**. Each of them can be viewed as a **regular button**, an **outline button**, or an **outline button with no borders**. 
+You can even change the size of all buttons from **normal sized** to **large sized**.
 
 It's a best practice to **add an icon** to make the purpose of the button clear at a glance.
 
@@ -125,7 +126,7 @@ The outline buttons with no borders should be used when you don't want the butto
 
 ### Large
 
-You can increase the size of every button adding the infn-btn-lg class:
+You can increase the size of every button adding the <code>infn-btn-lg</code> class:
 
 <img src="static/images/btn-large.png" alt="Large Buttons" height="40px">
 
