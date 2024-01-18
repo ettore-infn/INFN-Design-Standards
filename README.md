@@ -220,7 +220,7 @@ Section subtitles can be used to divide the text in sub-sections or to add desig
 
 ### Plain Text
 
-Use the plain text to write all the text. You don't need to specify a tag:
+Use the plain text to write all the text. You don't need to specify a class to use it:
 
 <img src="static/images/txt-plain.png" alt="Plain Text" height="40px">
 
