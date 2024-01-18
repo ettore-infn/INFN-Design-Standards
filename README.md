@@ -254,7 +254,7 @@ INFN Inputs
 
 Search bars has plenty of uses, add it to filter through a list of elements or to search something inside the website:
 
-<img src="static/images/input-search-bar.png" alt="Search Bar" height="32px">
+<img src="static/images/input-search-bar.png" alt="Search Bar" height="48px">
 
 ```html
   <div class="infn-input-search-container">
@@ -268,7 +268,7 @@ Search bars has plenty of uses, add it to filter through a list of elements or t
 
 Mostly used in forms, the text input is the most simple input element to gain text from the user:
 
-<img src="static/images/input-text.png" alt="Input Text" height="24px">
+<img src="static/images/input-text.png" alt="Input Text" height="71px">
 
 ```html
   <div class="infn-form-group">
@@ -282,7 +282,7 @@ Mostly used in forms, the text input is the most simple input element to gain te
 
 Use the option input to make the user choose between different options:
 
-<img src="static/images/input-option.png" alt="Input Option" height="21px">
+<img src="static/images/input-option.png" alt="Input Option" height="70px">
 
 ```html
   <div class="infn-form-group">
@@ -295,16 +295,6 @@ Use the option input to make the user choose between different options:
       </select>
   </div>
 ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
