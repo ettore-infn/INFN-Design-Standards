@@ -172,7 +172,7 @@ INFN Text
 
 Titles are  the first thing that a user sees, use them wisley:
 
-<img src="static/images/txt-title.png" alt="Title" height="35px">
+<img src="static/images/txt-title.png" alt="Title" height="32px">
 
 ```html
   <div class="infn-title">Infn Title example</div>
@@ -183,7 +183,7 @@ Titles are  the first thing that a user sees, use them wisley:
 
 Subtitles can add extra informations along the title:
 
-<img src="static/images/txt-subtitle.png" alt="Subtitle" height="35px">
+<img src="static/images/txt-subtitle.png" alt="Subtitle" height="24px">
 
 ```html
   <div class="infn-subtitle">Infn subtitle example</div>
@@ -197,7 +197,7 @@ Use the section titles to dentify sections among the page:
 > [!TIP]
 > Add an icon to make clear the purpose of the section.
 
-<img src="static/images/txt-section-title.png" alt="Section Title" height="35px">
+<img src="static/images/txt-section-title.png" alt="Section Title" height="21px">
 
 ```html
   <div class="infn-section-title"><i class="fas fa-cloud"></i> Infn section Title example</div>
@@ -211,7 +211,7 @@ Section subtitles can be used to divide the text in sub-sections or to add desig
 > [!TIP]
 > Like the section title, adding an icon would help the user to identify the section faster.
 
-<img src="static/images/txt-section-subtitle.png" alt="Section Subtitle" height="40px">
+<img src="static/images/txt-section-subtitle.png" alt="Section Subtitle" height="17px">
 
 ```html
   <div class="infn-section-subtitle"><i class="fas fa-cloud"></i> Infn section subtitle example</div>
@@ -222,7 +222,7 @@ Section subtitles can be used to divide the text in sub-sections or to add desig
 
 Use the plain text to write all the text. You don't need to specify a class to use it:
 
-<img src="static/images/txt-plain.png" alt="Plain Text" height="40px">
+<img src="static/images/txt-plain.png" alt="Plain Text" height="21px">
 
 ```html
   <p>Infn text example</p>
