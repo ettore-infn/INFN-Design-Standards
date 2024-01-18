@@ -81,7 +81,11 @@ Include the **INFN Design Standards Stylesheet** the <code>\<head\></code> of yo
   <!-- INFN Design Standards Stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ettore-infn/INFN-Design-Standards@main/static/style/infn-style.css">
 ```
+ 
 You can now start building your website using the INFN CSS classes!
+
+> [!NOTE]
+> Consider importing the **fontawesome** library to implement icons.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,12 +169,12 @@ Round buttons are the smaller ones and doesn't contains text. Use them when you 
 <!-- TEXT -->
 ## Text
 
-INFN Text
+Texts within a website are the most common elements. Using them correctly can significantly increase the readability and usability of the site.
 
 
 ### Title
 
-Titles are  the first thing that a user sees, use them wisley:
+Titles are the first thing the draws the user's attention, use them wisley:
 
 <img src="static/images/txt-title.png" alt="Title" height="32px">
 
@@ -181,7 +185,7 @@ Titles are  the first thing that a user sees, use them wisley:
 
 ### Subtitle
 
-Subtitles can add extra informations along the title:
+Subtitles can add extra information among the title:
 
 <img src="static/images/txt-subtitle.png" alt="Subtitle" height="24px">
 
@@ -192,10 +196,10 @@ Subtitles can add extra informations along the title:
 
 ### Section Title
 
-Use the section titles to dentify sections among the page:
+Use the section titles to identify sections among the page:
 
 > [!TIP]
-> Add an icon to make clear the purpose of the section.
+> Add an icon to make the purpose of the section clear.
 
 <img src="static/images/txt-section-title.png" alt="Section Title" height="21px">
 
