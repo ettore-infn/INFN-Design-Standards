@@ -57,6 +57,14 @@
         <li><a href="#plain-text">Plain Text</a></li>
       </ul>
     </li>
+    <li>
+      <a href="#inputs">Inputs</a>
+      <ul>
+        <li><a href="#search-bar">Search Bar</a></li>
+        <li><a href="#text-input">Text Input</a></li>
+        <li><a href="#option-input">Option Input</a></li>
+      </ul>
+    </li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -231,6 +239,72 @@ Use the plain text to write all the text. You don't need to specify a class to u
 ```html
   <p>Infn text example</p>
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- INPUTS -->
+## Inputs
+
+INFN Inputs
+
+
+### Search Bar
+
+Search bars has plenty of uses, add it to filter through a list of elements or to search something inside the website:
+
+<img src="static/images/input-search-bar.png" alt="Search Bar" height="32px">
+
+```html
+  <div class="infn-input-search-container">
+      <input class="infn-input-search" type="text" placeholder="Search...">
+      <i class="fas fa-search"></i>
+  </div>
+```
+
+
+### Text Input
+
+Mostly used in forms, the text input is the most simple input element to gain text from the user:
+
+<img src="static/images/input-text.png" alt="Input Text" height="24px">
+
+```html
+  <div class="infn-form-group">
+      <label for="description">Label Text</label>
+      <input name="description" class="infn-form-group-input" type="text" placeholder="Description">
+  </div>
+```
+
+
+### Option Input
+
+Use the option input to make the user choose between different options:
+
+<img src="static/images/input-option.png" alt="Input Option" height="21px">
+
+```html
+  <div class="infn-form-group">
+      <label for="select">Choose a option:</label>
+      <select name="select" class="infn-form-group-input">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+          <option value="option4">Option 4</option>
+      </select>
+  </div>
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+
+Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
