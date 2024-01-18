@@ -47,6 +47,16 @@
         <li><a href="#round">Round</a></li>
       </ul>
     </li>
+    <li>
+      <a href="#text">Text</a>
+      <ul>
+        <li><a href="#title">Title</a></li>
+        <li><a href="#subtitle">Subtitle</a></li>
+        <li><a href="#section-title">Section Title</a></li>
+        <li><a href="#section-subtitle">Section Subtitle</a></li>
+        <li><a href="#plain-text">Plain Text</a></li>
+      </ul>
+    </li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -83,7 +93,8 @@ You can now start building your website using the INFN CSS classes!
 There are several INFN buttons thet you can use in your project. They divides in three main categories: **primary**, **danger** and **warning**. Each of them can be viewed as a **regular button**, an **outline button**, or an **outline button with no borders**. 
 You can even change the size of all buttons from **normal sized** to **large sized**.
 
-It's a best practice to **add an icon** to make the purpose of the button clear at a glance.
+> [!TIP]
+> It's a best practice to **add an icon** to make the purpose of the button clear at a glance.
 
 
 ### Regular
@@ -145,7 +156,76 @@ Round buttons are the smaller ones and doesn't contains text. Use them when you 
 
 ```html
   <div class="infn-btn-round"><i class="fas fa-bookmark"></i></div>
-  <div class="infn-btn-round"><i class="fas fa-pen"></i></div>
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- TEXT -->
+## Text
+
+INFN Text
+
+
+### Title
+
+Titles are  the first thing that a user sees, use them wisley:
+
+<img src="static/images/txt-title.png" alt="Title" height="35px">
+
+```html
+  <div class="infn-title">Infn Title example</div>
+```
+
+
+### Subtitle
+
+Subtitles can add extra informations along the title:
+
+<img src="static/images/txt-subtitle.png" alt="Subtitle" height="35px">
+
+```html
+  <div class="infn-subtitle">Infn subtitle example</div>
+```
+
+
+### Section Title
+
+Use the section titles to dentify sections among the page:
+
+> [!TIP]
+> Add an icon to make clear the purpose of the section.
+
+<img src="static/images/txt-section-title.png" alt="Section Title" height="35px">
+
+```html
+  <div class="infn-section-title"><i class="fas fa-cloud"></i> Infn section Title example</div>
+```
+
+
+### Section Subtitle
+
+Section subtitles can be used to divide the text in sub-sections or to add design details:
+
+> [!TIP]
+> Like the section title, adding an icon would help the user to identify the section faster.
+
+<img src="static/images/txt-section-subtitle.png" alt="Section Subtitle" height="40px">
+
+```html
+  <div class="infn-section-subtitle"><i class="fas fa-cloud"></i> Infn section subtitle example</div>
+```
+
+
+### Plain Text
+
+Use the plain text to write all the text. You don't need to specify a tag:
+
+<img src="static/images/txt-plain.png" alt="Plain Text" height="40px">
+
+```html
+  <p>Infn text example</p>
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
