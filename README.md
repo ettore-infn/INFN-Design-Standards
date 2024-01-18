@@ -44,6 +44,7 @@
         <li><a href="#outline">Outline</a></li>
         <li><a href="#no-border">No Border</a></li>
         <li><a href="#large">Large</a></li>
+        <li><a href="#round">Round</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -133,6 +134,18 @@ You can increase the size of every button adding the <code>infn-btn-lg</code> cl
 ```html
   <div class="infn-btn infn-btn-primary infn-btn-lg">Primary</div>
   <div class="infn-btn infn-btn-danger-outline infn-btn-lg">Danger</div>
+```
+
+
+### Round
+
+Round buttons are the smaller ones and doesn't contains text. Use them when you have to minimize the occupied space, in contexts like adding a bookmark or editing a element:
+
+<img src="static/images/btn-round.png" alt="Round Buttons" height="40px">
+
+```html
+  <div class="infn-btn-round"><i class="fas fa-bookmark"></i></div>
+  <div class="infn-btn-round"><i class="fas fa-pen"></i></div>
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
