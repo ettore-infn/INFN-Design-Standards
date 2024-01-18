@@ -224,6 +224,8 @@
 
 body {
     font-family: 'Roboto';
+    font-size: 16px;
+    color: var(--infn-color-primary);
 }
 
 input {
@@ -389,11 +391,6 @@ input {
     font-weight: 500;
     color: var(--infn-color-primary);
     font-family: 'Oswald';
-}
-
-.infn-text {
-    font-size: 16px;
-    color: var(--infn-color-primary);
 }
 
 .infn-section-title {
