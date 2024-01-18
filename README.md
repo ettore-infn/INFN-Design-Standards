@@ -65,6 +65,13 @@
         <li><a href="#option-input">Option Input</a></li>
       </ul>
     </li>
+    <li>
+      <a href="#cards">Cards</a>
+      <ul>
+        <li><a href="#card">Card</a></li>
+        <li><a href="#counter">Counter</a></li>
+      </ul>
+    </li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -293,6 +300,50 @@ Use the option input to make the user choose between different options:
           <option value="option3">Option 3</option>
           <option value="option4">Option 4</option>
       </select>
+  </div>
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CARDS -->
+## Cards
+
+INFN Cards
+
+
+### Card
+
+INFN Card:
+
+<img src="static/images/card.png" alt="Card" height="350px">
+
+```html
+  <div class="infn-card">
+      <div class="infn-title">Card Title</div>
+      <br>
+      <div class="infn-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, porro sapiente ipsa quas aut tempore dolorem, nam quam veritatis delectus, voluptate consectetur nulla eaque obcaecati illo corrupti ea ipsum asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sequi cumque, animi ab ratione corrupti doloribus vitae accusamus quas autem necessitatibus ipsam officia non soluta, sapiente temporibus a aliquam architecto!</div>
+      <br><br>
+      <div class="infn-btn infn-btn-primary infn-btn-lg">Let's go!<i class="fas fa-arrow-right"></i></div>
+  </div>
+```
+
+
+### Counter
+
+INFN Counter:
+
+<img src="static/images/counter.png" alt="Counter" height="40px">
+
+```html
+  <div class="infn-counter">
+      <div class="infn-counter-text">
+          <i class="fas fa-check-circle"></i>&nbsp;&nbsp;&nbsp;Element count
+      </div>
+      <div class="infn-counter-num">
+          7
+      </div>
   </div>
 ```
 
