@@ -470,7 +470,7 @@ input {
     border-radius: var(--infn-border-radius);
     box-shadow: var(--infn-box-shadow-light);
     background: white;
-    padding: 24px 32px 32px;
+    padding: 32px;
 }
 
 .infn-card:hover {
