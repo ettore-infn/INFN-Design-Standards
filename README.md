@@ -84,7 +84,7 @@ INFN Design standard classes repository. Use this stylesheet when creating a INF
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Include the **INFN Design Standards Stylesheet** the <code>\<head\></code> of your HTML file:
+Include the **INFN Design Standards Stylesheet** in the <code>\<head\></code> of your HTML file:
 ```html
   <!-- INFN Design Standards Stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ettore-infn/INFN-Design-Standards@main/static/style/infn-style.css">
