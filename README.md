@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This repository contains the INFN Design Standards, a set of classes and stylesheets for creating web applications that follow the INFN branding and usability guidelines. By using these standards, you can ensure a consistent look and feel across the INFN web infrastructure.
+Welcome to the world of INFN Design Standards — meticulously crafted to empower developers in creating web applications that effortlessly embody the essence of INFN's unique identity. Dive into this curated collection of classes and stylesheets, ensuring a harmonious blend of aesthetics and functionality across the entire INFN web infrastructure.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +97,7 @@ Include the **INFN Design Standards Stylesheet** in the <code>\<head\></code> of
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ettore-infn/INFN-Design-Standards@main/static/style/infn-style.css">
 ```
  
-You can now start building your website using the INFN CSS classes!
+Now you can start building your website, confident that you're aligning with INFN's design principles with every line of code.
 
 > [!NOTE]
 > Consider importing the **fontawesome** library to implement icons.
@@ -109,16 +109,15 @@ You can now start building your website using the INFN CSS classes!
 <!-- BUTTONS -->
 ## Buttons
 
-There are several INFN buttons thet you can use in your project. They divides in three main categories: **primary**, **danger** and **warning**. Each of them can be viewed as a **regular button**, an **outline button**, or an **outline button with no borders**. 
-You can even change the size of all buttons from **normal sized** to **large sized**.
+Uncover the elegance of INFN buttons, designed to seamlessly integrate with your user interface. Immerse yourself in three distinct types: **primary**, **danger**, and **warning**. From sophisticated **regular** buttons to subtle **outline** options and **borderless** wonders, **customize sizes from normal to large**.
 
 > [!TIP]
-> It's a best practice to **add an icon** to make the purpose of the button clear at a glance.
+> Enchant your users with **meaningful icons**, providing an intuitive touch to your button interactions.
 
 
 ### Regular
 
-Regular buttons are the most used, you can add them to perform regular call-to-actions and guide users towards your goal:
+Regular buttons, your trusted companions for **primary actions**, elegantly guide users toward essential goals:
 
 <img src="static/images/btn-regular.png" alt="Regular Buttons" height="35px">
 
@@ -131,7 +130,7 @@ Regular buttons are the most used, you can add them to perform regular call-to-a
 
 ### Outline
 
-You can use outline buttons to perform secondary actions, when the button don't need to be a call-to-action:
+Embrace outline buttons for **secondary actions**, allowing your design to balance prominence and subtlety:
 
 <img src="static/images/btn-outline.png" alt="Outline Buttons" height="35px">
 
@@ -144,7 +143,7 @@ You can use outline buttons to perform secondary actions, when the button don't 
 
 ### No Border
 
-The outline buttons with no borders should be used when you don't want the button to stand out:
+Choose outline buttons with no borders for a seamless integration into your interface, **letting your content shine**:
 
 <img src="static/images/btn-no-border.png" alt="No Border Buttons" height="35px">
 
@@ -157,7 +156,7 @@ The outline buttons with no borders should be used when you don't want the butto
 
 ### Large
 
-You can increase the size of every button adding the <code>infn-btn-lg</code> class:
+Make a bold statement by **increasing button size** with the class <code>infn-btn-lg</code>:
 
 <img src="static/images/btn-large.png" alt="Large Buttons" height="40px">
 
@@ -169,7 +168,7 @@ You can increase the size of every button adding the <code>infn-btn-lg</code> cl
 
 ### Round
 
-Round buttons are the smaller ones and doesn't contains text. Use them when you have to minimize the occupied space, in contexts like adding a bookmark or editing a element:
+Embrace round buttons for a **space-efficient touch**, perfect for streamlined interactions:
 
 <img src="static/images/btn-round.png" alt="Round Buttons" height="40px">
 
@@ -184,12 +183,12 @@ Round buttons are the smaller ones and doesn't contains text. Use them when you 
 <!-- TEXT -->
 ## Text
 
-Texts within a website are the most common elements. Using them correctly can significantly increase the readability and usability of the site.
+Text, the storyteller of your user interface. Master the art of text usage to enhance readability and create an engaging experience.
 
 
 ### Title
 
-Titles are the first thing the draws the user's attention, use them wisley:
+Titles, the first chapter of your narrative. Employ them strategically to **captivate users** from the start:
 
 <img src="static/images/txt-title.png" alt="Title" height="32px">
 
@@ -200,7 +199,7 @@ Titles are the first thing the draws the user's attention, use them wisley:
 
 ### Subtitle
 
-Subtitles can add extra information among the title:
+Subtitles, the supporting actors. Add depth to your narrative by providing **context** beneath the main title:
 
 <img src="static/images/txt-subtitle.png" alt="Subtitle" height="24px">
 
@@ -211,7 +210,7 @@ Subtitles can add extra information among the title:
 
 ### Section Title
 
-Use the section titles to identify sections among the page:
+Section titles, the scene changers. Guide users through your content with these **distinctive markers**:
 
 > [!TIP]
 > Add an icon to make the purpose of the section clear.
@@ -225,7 +224,7 @@ Use the section titles to identify sections among the page:
 
 ### Section Subtitle
 
-Section subtitles can be used to divide the text in sub-sections or to add design details:
+Section subtitles, the storytellers within. **Enhance readability** by dividing text or adding design details:
 
 > [!TIP]
 > Like the section title, adding an icon would help the user to identify the section faster.
@@ -254,12 +253,12 @@ Use the plain text to write all the text. You don't need to specify a class to u
 <!-- INPUTS -->
 ## Inputs
 
-INFN Inputs
+INFN inputs — seamlessly designed to enrich user interactions and provide a delightful experience.
 
 
 ### Search Bar
 
-Search bars has plenty of uses, add it to filter through a list of elements or to search something inside the website:
+A sleek search bar to **filter** through content and discover with ease:
 
 <img src="static/images/input-search-bar.png" alt="Search Bar" height="48px">
 
@@ -273,7 +272,7 @@ Search bars has plenty of uses, add it to filter through a list of elements or t
 
 ### Text Input
 
-Mostly used in forms, the text input is the most simple input element to gain text from the user:
+Simplicity meets functionality with the text input element, capturing user input texts:
 
 <img src="static/images/input-text.png" alt="Input Text" height="71px">
 
@@ -287,7 +286,7 @@ Mostly used in forms, the text input is the most simple input element to gain te
 
 ### Option Input
 
-Use the option input to make the user choose between different options:
+Engage your users with intuitive option inputs, enabling them to choose from curated selections seamlessly:
 
 <img src="static/images/input-option.png" alt="Input Option" height="70px">
 
@@ -310,12 +309,12 @@ Use the option input to make the user choose between different options:
 <!-- CARDS -->
 ## Cards
 
-INFN Cards
+Explore the elegance and functionality of INFN Cards, thoughtfully designed for a delightful **content presentation**.
 
 
 ### Card
 
-INFN Card:
+The INFN Card Element is a visual delight, elevating your content presentation with a touch of sophistication. It offers a clean and organized canvas for your information:
 
 <img src="static/images/card.png" alt="Card" height="350px">
 
@@ -332,7 +331,7 @@ INFN Card:
 
 ### Counter
 
-INFN Counter:
+The counter is more than just a numeric display; it's a visual storyteller designed to elevate your content presentation:
 
 <img src="static/images/counter.png" alt="Counter" height="40px">
 
@@ -346,26 +345,5 @@ INFN Counter:
       </div>
   </div>
 ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
