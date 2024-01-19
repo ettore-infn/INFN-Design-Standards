@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-INFN Design standard classes repository. Use this stylesheet when creating a INFN Web App to maintain consistency through the INFN infrastructure.
+This repository contains the INFN Design Standards, a set of classes and stylesheets for creating web applications that follow the INFN branding and usability guidelines. By using these standards, you can ensure a consistent look and feel across the INFN web infrastructure.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,9 +123,9 @@ Regular buttons are the most used, you can add them to perform regular call-to-a
 <img src="static/images/btn-regular.png" alt="Regular Buttons" height="35px">
 
 ```html
-  <div class="infn-btn infn-btn-primary">Primary</div>
-  <div class="infn-btn infn-btn-danger">Danger</div>
-  <div class="infn-btn infn-btn-warning">Warning</div>
+  	<div class="infn-btn infn-btn-primary">Primary</div>
+  	<div class="infn-btn infn-btn-danger">Danger</div>
+  	<div class="infn-btn infn-btn-warning">Warning</div>
 ```
 
 
