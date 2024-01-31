@@ -420,6 +420,7 @@ input {
 }
 
 .infn-input-search {
+    width: 100%;
     box-sizing: border-box;
     padding: 12px 52px;
     border-radius: var(--infn-border-radius);
