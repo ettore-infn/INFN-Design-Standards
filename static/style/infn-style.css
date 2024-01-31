@@ -416,10 +416,11 @@ input {
 
 .infn-input-search-container {
     position: relative;
+    height: 46px;
 }
 
 .infn-input-search {
-    height: 24px;
+    box-sizing: border-box;
     padding: 12px 52px;
     border-radius: var(--infn-border-radius);
     border: none;
