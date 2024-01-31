@@ -92,7 +92,7 @@ Welcome to the world of INFN Design Standards — meticulously crafted to empowe
 Include the **INFN Design Standards Stylesheet** in the <code>\<head\></code> of your HTML file:
 ```html
   <!-- INFN Design Standards Stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ettore-infn/INFN-Design-Standards@latest/static/style/infn-style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ettore-infn/INFN-Design-Standards@main/static/style/infn-style.css">
 ```
  
 Now you can start building your website, confident that you're aligning with INFN's design principles with every line of code.
