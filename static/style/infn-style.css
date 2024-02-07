@@ -253,6 +253,10 @@ input {
     width: fit-content;
 }
 
+.infn-btn:focus-visible, .infn.btn:focus {
+    outline: 3px solid var(--infn-color-primary-50);
+}
+
 .infn-btn > i {
     margin-left: 8px;
 }
