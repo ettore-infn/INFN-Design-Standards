@@ -512,3 +512,8 @@ input {
 .infn-counter-num {
     margin-left: 3px;
 }
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
